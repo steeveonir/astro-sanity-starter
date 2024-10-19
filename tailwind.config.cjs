@@ -10,7 +10,23 @@ export default {
                 'grid-pattern': `linear-gradient(to bottom, theme('colors.neutral.950 / 0%'), theme('colors.neutral.950 / 100%'))`
             },
             colors: {
-                neutral: colors.neutral
+                neutral: colors.neutral,
+                // Adding additional colors
+                primary: {
+                    light: '#ffb3a3', // Lighter primary color
+                    DEFAULT: '#ffae9c', // Default primary color
+                    dark: '#c97a78' // Darker primary color
+                },
+                secondary: {
+                    light: '#ffedd7', // Lighter secondary color
+                    DEFAULT: '#fff2d7', // Default secondary color
+                    dark: '#d3b7a1' // Darker secondary color
+                },
+                accent: {
+                    light: '#d2e7ff', // Lighter accent color
+                    DEFAULT: '#e3f1ff', // Default accent color
+                    dark: '#b0d0e7' // Darker accent color
+                },
             },
             fontFamily: {
                 sans: ['Mulish', ...defaultTheme.fontFamily.sans]
